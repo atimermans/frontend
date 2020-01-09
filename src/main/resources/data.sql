@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Todo(id IDENTITY PRIMARY KEY, done BOOLEAN, text VARCHAR(255));
+DELETE FROM Todo;
+INSERT INTO Todo VALUES(1, true, 'Tarea 1');
+INSERT INTO Todo VALUES(2, true, 'Tarea 2');
+INSERT INTO Todo VALUES(3, false, 'Tarea 3');
+INSERT INTO Todo VALUES(4, false, 'Tarea 4');
